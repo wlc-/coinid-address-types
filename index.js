@@ -21,7 +21,7 @@ const addressTypes = {
     bip44Derivation: 84, // https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki
     title: 'Native Segwit (Bech32)',
     description: 'Generate Native Segwit (Bech32) addresses.',
-    warning: 'Not all wallets can send to these addresses.'
+    warning: 'Not all wallets can send to these addresses.',
     addressFunction: addressFunctionP2WPKH,
   }
 }
