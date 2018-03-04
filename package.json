@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "coinid-address-functions": "https://github.com/wlc-/coinid-address-functions.git"
+  }
+}
