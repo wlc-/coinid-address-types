@@ -1,4 +1,10 @@
 {
+  "name": "coinid-address-types",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://wlc-@github.com/wlc-/coinid-address-types.git",
+  "author": "wlc- <wwwwllllcccc@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "coinid-address-functions": "https://github.com/wlc-/coinid-address-functions.git"
   }
