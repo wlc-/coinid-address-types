@@ -41,7 +41,7 @@ export const getAddressTypeInfo = (addressType) => {
 	return addressTypes[addressType];
 }
 
-const getTypeFromDerivation = (derivationPath) => {
+export const getTypeFromDerivation = (derivationPath) => {
   const purpose = Number(derivationPath.split('/')[1].replace(/\'/, '')),
         type = Object.keys(addressTypes).find(k => addressTypes[k].bip44Derivation === purpose);
   return type;
