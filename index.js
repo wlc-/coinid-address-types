@@ -21,15 +21,15 @@ const addressTypes = {
   },
   'P2SH-P2WPKH': { // https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki
     bip44Derivation: 49, // https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki
-    title: 'Segwit',
-    description: 'Generate Segwit addresses.',
+    title: 'SegWit',
+    description: 'Generate SegWit addresses.',
     addressFunction: addressFunctionP2SHP2WPKH,
     signInputFunction: signInputFunctionP2SHP2WPKH,
   },
   'P2WPKH': { // https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki
     bip44Derivation: 84, // https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki
-    title: 'Native Segwit (Bech32)',
-    description: 'Generate Native Segwit (Bech32) addresses.',
+    title: 'Native SegWit (Bech32)',
+    description: 'Generate Native SegWit (Bech32) addresses.',
     warning: 'Not all wallets can send to these addresses.',
     addressFunction: addressFunctionP2WPKH,
     signInputFunction: signInputFunctionP2WPKH,
