@@ -33,8 +33,8 @@ const addressTypes = {
   },
   'P2WPKH': { // https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki
     bip44Derivation: 84, // https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki
-    title: 'Native Segwit (Bech32)',
-    description: 'Important! Not all wallets and services support sending to Bech32 addresses.',
+    title: 'Bech32 (Native Segwit)',
+    description: 'Important! Not all services support sending to Bech32 addresses.',
     addressFunction: addressFunctionP2WPKH,
     signInputFunction: signInputFunctionP2WPKH,
     addInputFunction: addInputFunctionP2WPKH,
